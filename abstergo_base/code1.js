@@ -892,7 +892,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getSce
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("https://github.com/evembar/webanlauncher/releases/download/2.1.1.1/webanlauncher.2_win.zip", runtimeScene);
+{gdjs.evtTools.window.openURL("https://github.com/evembar/webanlauncher/releases/download/2.1.1.2/webanlauncher.2_win.zip", runtimeScene);
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Download page");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Instructions");
 }{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(3);
@@ -922,7 +922,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getSce
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("https://github.com/evembar/webanlauncher/releases/download/2.1.1.1/webanlauncher.2_posix.zip", runtimeScene);
+{gdjs.evtTools.window.openURL("https://github.com/evembar/webanlauncher/releases/download/2.1.1.2/webanlauncher.2_posix.zip", runtimeScene);
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Download page");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Instructions");
 }{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(3);
@@ -952,7 +952,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getSce
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("https://github.com/evembar/webanlauncher/releases/download/2.1.1.1/webanlauncher.2_posix.zip", runtimeScene);
+{gdjs.evtTools.window.openURL("https://github.com/evembar/webanlauncher/releases/download/2.1.1.2/webanlauncher.2_posix.zip", runtimeScene);
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Download page");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Instructions");
 }{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(3);
