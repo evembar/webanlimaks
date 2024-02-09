@@ -9,7 +9,7 @@ gdjs.BootCode.GDWebAnLauncher_95952_9595labelObjects3= [];
 gdjs.BootCode.GDWebAnLauncher_95952_9595labelObjects4= [];
 
 
-gdjs.BootCode.asyncCallback8448532 = function (runtimeScene, asyncObjectsList) {
+gdjs.BootCode.asyncCallback9369460 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "launcher", true);
 }}
 gdjs.BootCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
@@ -21,14 +21,14 @@ gdjs.BootCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.BootCode.asyncCallback8448532(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.BootCode.asyncCallback9369460(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.BootCode.asyncCallback9968892 = function (runtimeScene, asyncObjectsList) {
+};gdjs.BootCode.asyncCallback9368524 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "launcher");
 }
 { //Subevents
@@ -43,14 +43,14 @@ gdjs.BootCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.BootCode.asyncCallback9968892(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.BootCode.asyncCallback9368524(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.BootCode.asyncCallback9968492 = function (runtimeScene, asyncObjectsList) {
+};gdjs.BootCode.asyncCallback9368836 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("WebAnLauncher_2_label"), gdjs.BootCode.GDWebAnLauncher_95952_9595labelObjects2);
 
 {for(var i = 0, len = gdjs.BootCode.GDWebAnLauncher_95952_9595labelObjects2.length ;i < len;++i) {
@@ -69,7 +69,7 @@ gdjs.BootCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.BootCode.GDWebAnLauncher_95952_9595labelObjects1) asyncObjectsList.addObject("WebAnLauncher_2_label", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2.5), (runtimeScene) => (gdjs.BootCode.asyncCallback9968492(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2.5), (runtimeScene) => (gdjs.BootCode.asyncCallback9368836(runtimeScene, asyncObjectsList)));
 }
 }
 
