@@ -101,7 +101,7 @@ gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewTextObjects2Objects = Hashtable.
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewText2Objects2Objects = Hashtable.newFrom({"NewText2": gdjs.SiteCode.GDNewText2Objects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewText3Objects2Objects = Hashtable.newFrom({"NewText3": gdjs.SiteCode.GDNewText3Objects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewText4Objects2Objects = Hashtable.newFrom({"NewText4": gdjs.SiteCode.GDNewText4Objects2});
-gdjs.SiteCode.asyncCallback8394932 = function (runtimeScene, asyncObjectsList) {
+gdjs.SiteCode.asyncCallback9593148 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.SiteCode.GDNewTextObjects3);
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.SiteCode.GDNewText2Objects3);
 gdjs.copyArray(runtimeScene.getObjects("NewText3"), gdjs.SiteCode.GDNewText3Objects3);
@@ -129,7 +129,7 @@ gdjs.SiteCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.SiteCode.GDNewText4Objects2) asyncObjectsList.addObject("NewText4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback8394932(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback9593148(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -147,7 +147,7 @@ gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDyagaObjects2Objects = Hashtable.new
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDlogoObjects2Objects = Hashtable.newFrom({"logo": gdjs.SiteCode.GDlogoObjects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDwabaniObjects2Objects = Hashtable.newFrom({"wabani": gdjs.SiteCode.GDwabaniObjects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDto_95959595mainObjects1Objects = Hashtable.newFrom({"to_main": gdjs.SiteCode.GDto_9595mainObjects1});
-gdjs.SiteCode.asyncCallback9118148 = function (runtimeScene, asyncObjectsList) {
+gdjs.SiteCode.asyncCallback9604252 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.SiteCode.GDNewTextObjects2);
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.SiteCode.GDNewText2Objects2);
 gdjs.copyArray(runtimeScene.getObjects("NewText3"), gdjs.SiteCode.GDNewText3Objects2);
@@ -175,7 +175,7 @@ gdjs.SiteCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.SiteCode.GDNewText4Objects1) asyncObjectsList.addObject("NewText4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback9118148(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback9604252(runtimeScene, asyncObjectsList)));
 }
 }
 
