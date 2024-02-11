@@ -107,7 +107,7 @@ gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewTextObjects2Objects = Hashtable.
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewText2Objects2Objects = Hashtable.newFrom({"NewText2": gdjs.SiteCode.GDNewText2Objects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewText3Objects2Objects = Hashtable.newFrom({"NewText3": gdjs.SiteCode.GDNewText3Objects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDNewText4Objects2Objects = Hashtable.newFrom({"NewText4": gdjs.SiteCode.GDNewText4Objects2});
-gdjs.SiteCode.asyncCallback9673572 = function (runtimeScene, asyncObjectsList) {
+gdjs.SiteCode.asyncCallback18529452 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.SiteCode.GDNewTextObjects3);
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.SiteCode.GDNewText2Objects3);
 gdjs.copyArray(runtimeScene.getObjects("NewText3"), gdjs.SiteCode.GDNewText3Objects3);
@@ -135,7 +135,7 @@ gdjs.SiteCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.SiteCode.GDNewText4Objects2) asyncObjectsList.addObject("NewText4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback9673572(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback18529452(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -155,7 +155,7 @@ gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDYoutubeObjects2Objects = Hashtable.
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDYoutube2Objects2Objects = Hashtable.newFrom({"Youtube2": gdjs.SiteCode.GDYoutube2Objects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDwabaniObjects2Objects = Hashtable.newFrom({"wabani": gdjs.SiteCode.GDwabaniObjects2});
 gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDto_95959595mainObjects1Objects = Hashtable.newFrom({"to_main": gdjs.SiteCode.GDto_9595mainObjects1});
-gdjs.SiteCode.asyncCallback9683156 = function (runtimeScene, asyncObjectsList) {
+gdjs.SiteCode.asyncCallback23568980 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.SiteCode.GDNewTextObjects2);
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.SiteCode.GDNewText2Objects2);
 gdjs.copyArray(runtimeScene.getObjects("NewText3"), gdjs.SiteCode.GDNewText3Objects2);
@@ -183,7 +183,7 @@ gdjs.SiteCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.SiteCode.GDNewText4Objects1) asyncObjectsList.addObject("NewText4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback9683156(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SiteCode.asyncCallback23568980(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -303,7 +303,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDGdevelop_95959595otanoObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("ортано на родной платформе", runtimeScene);
+{gdjs.evtTools.window.openURL("https://gd.games/webanlimaks/ortano", runtimeScene);
 }}
 
 }
@@ -331,7 +331,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDitch_95959595ortanoObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("ortano itch-а", runtimeScene);
+{gdjs.evtTools.window.openURL("https://webanlimak.itch.io/ortano", runtimeScene);
 }}
 
 }
@@ -345,7 +345,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDGameJoltObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("тут ссылка для night soul, который в gamejolt", runtimeScene);
+{gdjs.evtTools.window.openURL("https://gamejolt.com/games/night_soul/819781", runtimeScene);
 }}
 
 }
@@ -359,7 +359,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDGameJolt_95959595ortanoObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("тут ссылка для ortano, который в gamejolt", runtimeScene);
+{gdjs.evtTools.window.openURL("https://gamejolt.com/games/ortano/875821", runtimeScene);
 }}
 
 }
@@ -373,7 +373,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDyagaObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("тут ссылка для ortano, который в яндекс играх", runtimeScene);
+{gdjs.evtTools.window.openURL("https://yandex.ru/games/", runtimeScene);
 }}
 
 }
@@ -401,7 +401,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDYoutubeObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("трейлер ортаны", runtimeScene);
+{gdjs.evtTools.window.openURL("https://youtu.be/NQTeUJ2g8T0", runtimeScene);
 }}
 
 }
