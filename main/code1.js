@@ -275,7 +275,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SiteCode.mapOfGDgdjs_9546SiteCode_9546GDgetObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.openURL("https://evembar.github.io/webanlimaks/webanlauncher/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://evembar.github.io/webanlimaks/launcher.html", runtimeScene);
 }}
 
 }
